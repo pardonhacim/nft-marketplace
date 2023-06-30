@@ -1,0 +1,40 @@
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    float: left;
+    margin-left: 30px;
+  }
+  
+  .filter {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .select {
+    width: 150px;
+    margin: 5px 0px;
+    background-color: #141618;
+    color: white;
+    padding: 12px;
+    border: 1px solid #141618;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  
+  .select:hover {
+    background-color: #202326;
+  }
+  
+  .select option {
+    font-weight: 600;
+  }
